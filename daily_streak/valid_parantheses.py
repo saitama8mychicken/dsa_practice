@@ -20,7 +20,7 @@ Example 2:
 Input: s = "()[]{}"
 Output: true
 
-
+link: https://leetcode.com/problems/valid-parentheses/description/
 """
 
 class Solution:
