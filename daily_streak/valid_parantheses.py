@@ -23,6 +23,7 @@ Output: true
 link: https://leetcode.com/problems/valid-parentheses/description/
 """
 
+
 class Solution:
     def __init__(self):
         self.opening_parantheses = set(['(', '[', '{'])
