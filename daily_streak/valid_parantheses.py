@@ -58,13 +58,10 @@ class Solution:
                     return False
 
                 if self.reverse_parantheses(parantheses_order[-1]) == parantheses:
-                    parantheses_order = parantheses_order[:-1]
+                    parantheses_order.pop()
                 else:
                     return False
 
-        if len(parantheses_order) > 0:
-            return False
-        else:
-            return True
+        return not parantheses_order
 
 
